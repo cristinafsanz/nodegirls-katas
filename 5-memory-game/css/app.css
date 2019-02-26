@@ -1,0 +1,185 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ffffff url('../img/geometry2.png');
+	/* Background pattern from Subtle Patterns */
+	font-family: 'Coda', cursive;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.restart > span { 
+    margin-left: 0.5em;
+}
+
+.timer {
+    font-size: 30px;
+}
+
+.timer > span {
+    margin-left: 0.5em;
+}
+/*
+ * Styles for the deck of cards
+ */
+
+.deck {
+	width: 660px;
+	min-height: 680px;
+	background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+	padding: 32px;
+	border-radius: 10px;
+	box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 3em;
+}
+
+.deck .card {
+	height: 125px;
+	width: 125px;
+	background: #2e3d49;
+	font-size: 0;
+	color: #ffffff;
+	border-radius: 8px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.deck .card.open {
+	transform: rotateY(0);
+	background: #02b3e4;
+	cursor: default;
+}
+
+.deck .card.show {
+	font-size: 33px;
+}
+
+.deck .card.match {
+	cursor: default;
+	background: #02ccba;
+	font-size: 33px;
+}
+
+.deck .card.dismatch {
+	cursor: default;
+	background: #f45042;
+	font-size: 33px;
+}
+
+/*
+ * Styles for the Score Panel
+ */
+
+.score-panel {
+	text-align: left;
+	width: 345px;
+	margin-bottom: 10px;
+}
+
+.score-panel .restart {
+	float: right;
+	cursor: pointer;
+}
+
+/* Modal */
+
+.modal {
+	display: none;
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.wrapper>h1 {
+	font-size: 45px;
+	line-height: 20px;
+}
+
+.wrapper button {
+	width: 10rem;
+	height: 3rem;
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.wrapper button:hover {
+	background-color: #25c425;
+}
+
+
+/* Stars
+*  @see https://stackoverflow.com/a/49343426
+*/
+
+.rating-box {
+	position: relative;
+	vertical-align: middle;
+	font-size: 1.5em;
+	font-family: FontAwesome;
+	display: inline-block;
+	color: #F68127;
+	margin-right: 0.5em;
+}
+
+.rating-box:before {
+	content: "\f006 \f006 \f006";
+}
+
+.rating-box .rating {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #F68127;
+}
+
+.rating-box .rating:before {
+	content: "\f005 \f005 \f005 \f005 \f005";
+}
