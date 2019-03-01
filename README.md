@@ -4,7 +4,7 @@ Katas de Node Girls Madrid 2 Marzo hechas por [Theba Gómez](https://github.com/
 
 ## Presentación
 
-[Katas JavaScript intermedio](https://cyber-nomads.slides.com/tebagomez/deck-18#/)
+[Katas JavaScript intermedio](https://cyber-nomads.slides.com/tebagomez/katasjsintermedio#/)
 
 ## Katas
 
@@ -18,29 +18,11 @@ Katas de Node Girls Madrid 2 Marzo hechas por [Theba Gómez](https://github.com/
 
 - Más información:
 
-    - Array Cardio 1: [Repo](https://github.com/wesbos/JavaScript30/tree/master/04%20-%20Array%20Cardio%20Day%201) y [Demo](https://cristinafsanz.github.io/nodegirls-katas/2.array-cardio-1/index-FINISHED.html)
+    - Array Cardio 1: [Repo](https://github.com/wesbos/JavaScript30/tree/master/04%20-%20Array%20Cardio%20Day%201) y [Demo](https://cristinafsanz.github.io/nodegirls-katas/1.array-cardio-1/index-FINISHED.html)
 
-    - Array Cardio 2: [Repo](https://github.com/wesbos/JavaScript30/tree/master/07%20-%20Array%20Cardio%20Day%202) y [Demo](https://cristinafsanz.github.io/nodegirls-katas/3.array-cardio-2/index-FINISHED.html)
+    - Array Cardio 2: [Repo](https://github.com/wesbos/JavaScript30/tree/master/07%20-%20Array%20Cardio%20Day%202) y [Demo](https://cristinafsanz.github.io/nodegirls-katas/2.array-cardio-2/index-FINISHED.html)
 
-### 2) Cat Clicker (Theba, Anna) (DOM + events + estrategia de construcción)
-
-- ¿Qué haréis? DOM + events + estrategia de desarrollo
-
-- Contiene funcionalidad adicional!!  👉 bonus.js
-
-- Tiempo aprox: 2hrs
-
-- Más información:
-
-    - [Repo](https://github.com/KoolTheba/cat-clicker-kata) y [Demo](https://cristinafsanz.github.io/nodegirls-katas/1.cat-clicker/)
-
-### 3) Hackear consola de Twitter (Elena y Vicky): saca los hashtags y pintarlo en pantalla. Versión más advance > hacer console.log (recordar!! No hacerlo con vuestra cuenta)
-
-- ¿Qué haréis? Ver cómo saltaros la limitación que tiene Twitter para poder sacar hashtags y pintarlos en la consola.
-
-- Tiempo aprox: 1hr
-
-### 4) HTML5 Canvas (Anna Branco + Cris) - Wes Bos
+### 2) HTML5 Canvas (Anna Branco + Cris) - Wes Bos
 
 - ¿Qué haréis? Aprender HTML5 Canvas y ponerlo en práctica de una forma sencilla
 
@@ -50,7 +32,25 @@ Katas de Node Girls Madrid 2 Marzo hechas por [Theba Gómez](https://github.com/
 
 - Más información:
 
-    - [Repo](https://github.com/wesbos/JavaScript30/tree/master/08%20-%20Fun%20with%20HTML5%20Canvas) y [Demo](https://cristinafsanz.github.io/nodegirls-katas/4-html5-canvas/index-FINISHED.html)
+    - [Repo](https://github.com/wesbos/JavaScript30/tree/master/08%20-%20Fun%20with%20HTML5%20Canvas) y [Demo](https://cristinafsanz.github.io/nodegirls-katas/3.html5-canvas/index-FINISHED.html)
+
+### 3) Cat Clicker (Theba, Anna) (DOM + events + estrategia de construcción)
+
+- ¿Qué haréis? DOM + events + estrategia de desarrollo
+
+- Contiene funcionalidad adicional!!  👉 bonus.js
+
+- Tiempo aprox: 2hrs
+
+- Más información:
+
+    - [Repo](https://github.com/KoolTheba/cat-clicker-kata) y [Demo](https://cristinafsanz.github.io/nodegirls-katas/4.cat-clicker/)
+
+### 4) Hackear consola de Twitter (Elena y Vicky): saca los hashtags y pintarlo en pantalla. Versión más advance > hacer console.log (recordar!! No hacerlo con vuestra cuenta)
+
+- ¿Qué haréis? Ver cómo saltaros la limitación que tiene Twitter para poder sacar hashtags y pintarlos en la consola.
+
+- Tiempo aprox: 1hr
 
 ### 5) Memory Game  (Theba, Anna, Cris): memory game con puntuación, reloj y restart button
 
@@ -60,7 +60,7 @@ Katas de Node Girls Madrid 2 Marzo hechas por [Theba Gómez](https://github.com/
 
 - Más información:
 
-    - [Repo](https://github.com/KoolTheba/memory-game-kata) y [Demo](https://cristinafsanz.github.io/nodegirls-katas/5-memory-game/)
+    - [Repo](https://github.com/KoolTheba/memory-game-kata) y [Demo](https://cristinafsanz.github.io/nodegirls-katas/5.memory-game/)
 
 - Otras soluciones:
 
